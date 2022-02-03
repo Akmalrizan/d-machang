@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+<title>Contact Us</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+<link rel="stylesheet" type="text/css" href="style1.css"/>
+<link rel="stylesheet" type="text/css" href="style3.css"/>
+</head>
+
+<body>
+
+<header>
+<img class="banner" src="image/dmachang2.png" alt="">
+</header>
+
+<nav>
+       <div class="topnav" id="myTopnav">
+            <a href="index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="history.html">History</a>
+            <a href="lifestyle">Lifestyle</a>
+            <div class="dropdown">
+            <button class="dropbtn">Accomodation  <i class="fa fa-caret-down"></i></button>
+	            <div class="dropdown-content">
+	                <a href="homestay.html">Homestay</a>
+		            <a href="hotels.html">Hotel</a>
+	            </div>
+            </div>
+            <div class="dropdown">
+            <button class="dropbtn">Activities  <i class="fa fa-caret-down"></i></button>
+	            <div class="dropdown-content">
+	                <a href="recreational.html">Recreation</a>
+		            <a href="shopping.html">Shopping</a>
+	            </div>
+            </div>
+            <div class="dropdown">
+            <button class="dropbtn">Food  <i class="fa fa-caret-down"></i></button>
+	            <div class="dropdown-content">
+	                <a href="local.html">Local</a>
+		            <a href="street.html">Street</a>
+		            <a href="western.html">Western</a>
+		            <a href="beverages.html">Beverages</a>
+	            </div>
+            </div>
+            <a href="contact.html">Contact Us</a>
+        </div>
+		
+<script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
+</nav>
+
+<div class="box">
+    <div class="contact-section">
+
+        <h1>Contact Us</h1>
+		<p>Connect with us to give your feedback and opinion to help us improve this website</p>
+        <form class="contact-form" action="index.html" method="post">
+            <input type="text" class="contact-form-text" placeholder="Your name">
+            <input type="email" class="contact-form-text" placeholder="Your email">
+            <input type="text" class="contact-form-text" placeholder="Your phone">
+            <textarea class="contact-form-text" placeholder="Your message"></textarea>
+            <input type="submit" class="contact-form-btn" value="Send">
+        </form>
+    </div>
+</div>
+
+<footer>
+
+          <h1>Copyright 2022. All Right Reserved</h1>
+          <h1>Last Updated February 2022</h1>
+          <h1>AKMALRIZAN | NURUSSAKINAH | AKHMALIANA</h1>
+          <br>
+          <h1>Visit using Google Chrome is recommended</h1>
+
+</footer>
+
+</body>
+</html>
